@@ -20,8 +20,8 @@ print(4 & 8) # Bitwise AND
 print(4 | 8) # Bitwise OR
 print(4 ^ 8) # Bitwise XOR
 print(~4)    # Bitwise NOT
-print(4 << 1) # Left Shift
-print(4 >> 1) # Right Shift
+print(4 << 1) # Left Shift --> a >> b means a * (2^b)
+print(4 >> 1) # Right Shift --> a << b means a / (2^b)
 
 # print(DecimalToBinary(10))
 # print(DecimalToBinary(42))
