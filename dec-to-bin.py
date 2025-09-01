@@ -18,6 +18,8 @@ for i in range(0, 11):
 
 print(4 & 8) # Bitwise AND
 print(4 | 8) # Bitwise OR
+print(4 ^ 8) # Bitwise XOR
+print(~4)    # Bitwise NOT
 
 # print(DecimalToBinary(10))
 # print(DecimalToBinary(42))
