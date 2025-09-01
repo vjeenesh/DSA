@@ -15,6 +15,10 @@ def DecimalToBinary(decNum):
 for i in range(0, 11):
     print(f"{i} in binary is {DecimalToBinary(i)}")
 
+
+print(4 & 8) # Bitwise AND
+print(4 | 8) # Bitwise OR
+
 # print(DecimalToBinary(10))
 # print(DecimalToBinary(42))
 # print(DecimalToBinary(2))
